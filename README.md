@@ -13,10 +13,9 @@ Modelled after dashboard created for Austin Saxophon Ensemble to Track enrollmen
 ## Problems to Solve
 - How many students are enrolled?
 - How many enrolled students have paid?
-- Did the increase in tuition from $150 to $225 this year adversely affect enrollment
-- What opportunities are there to promote and gain more students
-    - Previous students who have not yet enrolled?
-    - Instruments for which we need more players?
+- Did the increase in tuition from $150 to $225 this year adversely affect enrollment?
+- Do we have a good distribution across the different saxophones?
+- How well have we retained students from last year?
 - A majority of students have come from Leander and Round Rock ISDs in the past. Have we been effective in recruiting students from new schools and Districts?
 
 ### Insights
@@ -25,4 +24,7 @@ Modelled after dashboard created for Austin Saxophon Ensemble to Track enrollmen
 - Currently 75% of students have paid
     - Need to send payment reminder to those that have not paid
 - Of the 38 students from last year who didn't graduate, only 5 have enrolled this year
-    - Use list from page 2 to #### sTART HERE WITH RETURNERS ENROLLMENT
+    - Send promotional email to students who enrolled last year but have not yet this year (listed on page 2 of dashboard)
+- #####Start here with needing more middle school and sops and baritones
+
+    
