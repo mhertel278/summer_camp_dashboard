@@ -33,6 +33,17 @@ Modelled after dashboard created for Austin Saxophon Ensemble to Track enrollmen
     - Use the list of schools sending students for the first time to send thank you notes to teachers at those schools in order to foster a continued relationship with them
 
 ## Dashboard Techniques Used
-- 
+- Drop Down Filter and Cross Filters
+    - Allow user to filter to Middle Schoolers, High Schoolers, or all
+    - Allows determining if all instruments are covered for both school levels
+    - Cross filtering identified teachers who sent soprano players
+- Calculated fields
+    - Calculate labor costs conditional on enrollment totals, and calculate total profit
+    - Sorting instruments in order Soprano-Alto-Tenor-Baritone rather than alphabetically
+    - Determine which students from last year are eligible to return (have not graduated)
+- Blending Data
+    - Join School District data set to enrollment data set
+    - Self Join to determine which eligible returners have not enrolled
+####START HERE TO ADD SELF JOIN IMAGE
 
     
