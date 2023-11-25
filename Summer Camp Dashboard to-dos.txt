@@ -39,6 +39,10 @@ Summer Camp Enrollment To Does
 		- query
 		- arrayformula/substitute/regex for correcting names
 		- group by to de-dup 
+11/24/23
+	get screenshots of googlesheets
+	add image links
+	flesh out readme
 
 
 	
