@@ -44,6 +44,7 @@ Modelled after dashboard created for Austin Saxophon Ensemble to Track enrollmen
 - Blending Data
     - Join School District data set to enrollment data set
     - Self Join to determine which eligible returners have not enrolled
-####START HERE TO ADD SELF JOIN IMAGE
+![self_join](/images/self_join.png)
+
 
     
