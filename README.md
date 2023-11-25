@@ -20,12 +20,14 @@ Modelled after dashboard created for Austin Saxophon Ensemble to Track enrollmen
 
 ### Insights
 - Enrollment is currently up 38.8% and Revenue is up 98%
+![kpis](/images/kpis.png)
     - The increase in tuition helped boost revenue and did not adversely affect enrollment
 - Currently 75% of students have paid
     - Need to send payment reminder to those that have not paid
 - Of the 38 students from last year who didn't graduate, only 5 have enrolled this year
     - Send promotional email to students who enrolled last year but have not yet this year (listed on page 2 of dashboard)
 - Only 1 middle school soprano player is enrolled, and 1 student enrolled with primary instrument as baritone, which will not be enough.
+![instruments](/images/instr_cross_filter.png)
     - Reach to private teachers Gunter, Bull, and McFly who have soprano students attending, and ask for help recruiting more soprano players.
     - Three middle school students have listed baritone as a secondary instrument; have at least play baritone instead of their primary for the camp
 - Recruiting efforts have added Round Rock ISD as another strong source for students
@@ -47,13 +49,19 @@ Modelled after dashboard created for Austin Saxophon Ensemble to Track enrollmen
 ![self_join](/images/self_join.png)
 
 ## Data Cleaning and Transformation in Google Sheets
-- Used combination of ArrayFormula(), Trim(), Upper (), Proper(), Substitute(), and Regexreplace() to 
+
+The data for the current year 2023 signups flows into the 2023 Raw tab dynamically from the an online enrollment form. The historical data for 2022 is copied over from a seperate spreadsheet with a different structure to 2023.
+- Used ArrayFormula() to apply various functions below to entire columns dynamically as more data flowed into the dataset from the website
+- Used combination of Trim(), Upper (), Proper(), Substitute(), and Regexreplace() to 
     - standardize school names (i.e. RRHS becomes Round Rock HS)
+![schools](/images/school_cleaning_formula.png)
     - extract private teacher last names and correct spelling errors
     - standardize capitalization
 - Used IF(), IFERROR(), and Vlookup() to 
     - match student enrollment record with either their scholarship amount or a standard $225 tuition
+![vlookup](/images/vlookup.png)
 - Used combination of Query() and arrays to 
     - select columns from different spreadsheets and combine them vertically (similar to SQL Union)
-    - Remove duplicates using "Group By" where students submitted multiple sign ups for different instruments with 
-#####NEXT UP start adding image links######
+    - Remove duplicates using "Group By" where students submitted multiple sign ups for different instruments
+![query](/images/query_formula.png)
+
