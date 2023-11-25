@@ -46,5 +46,13 @@ Modelled after dashboard created for Austin Saxophon Ensemble to Track enrollmen
     - Self Join to determine which eligible returners have not enrolled
 ![self_join](/images/self_join.png)
 
-
-    
+## Data Cleaning and Transformation in Google Sheets
+- Used combination of ArrayFormula(), Trim(), Upper (), Proper(), Substitute(), and Regexreplace() to 
+    - standardize school names (i.e. RRHS becomes Round Rock HS)
+    - extract private teacher last names and correct spelling errors
+    - standardize capitalization
+- Used IF(), IFERROR(), and Vlookup() to 
+    - match student enrollment record with either their scholarship amount or a standard $225 tuition
+- Used combination of Query() and arrays to 
+    - select columns from different spreadsheets and combine them vertically (similar to SQL Union)
+    - Remove duplicates using "Group By" where students submitted multiple sign ups for different instruments with 
