@@ -6,9 +6,9 @@
 Modelled after dashboard created for Austin Saxophon Ensemble to Track enrollment for 2023 summer camp
 
 ### Tools Used
-    - Data cleaning with Google Sheets
-    - Dashboard in Google Looker Studio
-    - Dummy Data with Python Pandas, Numpy, Faker
+- Data cleaning with Google Sheets
+- Dashboard in Google Looker Studio
+- Dummy Data with Python Pandas, Numpy, Faker
 
 ## Problems to Solve
 - How many students are enrolled?
