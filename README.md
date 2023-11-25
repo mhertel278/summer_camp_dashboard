@@ -65,5 +65,5 @@ The data for the current year 2023 signups flows into the 2023 Raw tab dynamical
 - Used combination of Query() and arrays to 
     - select columns from different spreadsheets and combine them vertically (similar to SQL Union)
     - Remove duplicates using "Group By" where students submitted multiple sign ups for different instruments
-![query](/images/query_formula.png)
+![query](/images/query_formula.png)#####START HERE TAKE NEW QUERY() IMAGE WITH EDITED FORMATTING####
 
