@@ -47,6 +47,10 @@ Summer Camp Enrollment To Does
 	take new query formula screenshot
 	add section on Faker library
 	flesh out intro paragraph
+11/26/23
+	fix shirt size image
+	flesh out opening paragraph
+	proofread
 
 
 	
