@@ -33,6 +33,7 @@ Modelled after dashboard created for Austin Saxophon Ensemble to Track enrollmen
     - Three middle school students have listed baritone as a secondary instrument; have at least 1 
     play baritone instead of their primary for the camp
 - Recruiting efforts have added Round Rock ISD as another strong source for students
+![districts](/images/district.png)
     - Focus future recruiting efforts now on Austin, Lake Travis, and Pflugerville ISDs
     - Use the list of schools sending students for the first time to send thank you notes to teachers at those schools in order to foster a continued relationship with them
 
