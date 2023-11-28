@@ -1,5 +1,5 @@
 # Summer Camp Enrollment Dashboard
-    https://lookerstudio.google.com/s/sRvBdwceQXA
+    [Looker Studio Dashboard](https://lookerstudio.google.com/s/sRvBdwceQXA)
     https://docs.google.com/spreadsheets/d/1XGGhxuWfjlb2WiGxh-bEyMGVFgQtdlbVafmqPyaPB3o/edit#gid=324466194
 
 ## Project Summary
