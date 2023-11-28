@@ -1,6 +1,6 @@
 # Summer Camp Enrollment Dashboard
-    [Looker Studio Dashboard](https://lookerstudio.google.com/s/sRvBdwceQXA)
-    https://docs.google.com/spreadsheets/d/1XGGhxuWfjlb2WiGxh-bEyMGVFgQtdlbVafmqPyaPB3o/edit#gid=324466194
+[Looker Studio Dashboard](https://lookerstudio.google.com/s/sRvBdwceQXA)
+[Google Sheets Dataset](https://docs.google.com/spreadsheets/d/1XGGhxuWfjlb2WiGxh-bEyMGVFgQtdlbVafmqPyaPB3o/edit#gid=324466194)
 
 ## Project Summary
 Modelled after dashboard created for Austin Saxophon Ensemble to Track enrollment for 2023 summer camp
