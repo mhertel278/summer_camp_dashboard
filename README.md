@@ -1,13 +1,16 @@
 # Summer Camp Enrollment Dashboard
 [Looker Studio Dashboard](https://lookerstudio.google.com/s/sRvBdwceQXA)
+
 [Google Sheets Dataset](https://docs.google.com/spreadsheets/d/1XGGhxuWfjlb2WiGxh-bEyMGVFgQtdlbVafmqPyaPB3o/edit#gid=324466194)
 
 ## Project Summary
-Modelled after dashboard created for Austin Saxophon Ensemble to Track enrollment for 2023 summer camp
+This dashboard is modelled after a dashboard I created for the Austin Saxophone Ensemble to track enrollment in our summer camp. Student records for the current year 2023 flowed into a Google Sheet automatically as students submitted enrollment forms through our website. I then performed various data cleaning and transormation steps to combine previous years data with the current year. Finally the data was connect to a Looker Studio Dashboard. 
+
+For this project I created fake records that followed the same structure and mimiced the "messy" attributes of the original data set, while removing real names and obscuring the actual enrollment numbers.
 
 ### Tools Used
-- Data cleaning with Google Sheets
-- Dashboard in Google Looker Studio
+- Google Sheets
+- Google Looker Studio
 - Dummy Data with Python Pandas, Numpy, Faker
 
 ## Problems to Solve
@@ -18,12 +21,12 @@ Modelled after dashboard created for Austin Saxophon Ensemble to Track enrollmen
 - How well have we retained students from last year?
 - A majority of students have come from Leander ISD in the past. Have we been effective in recruiting students from new schools and Districts?
 
-### Insights
+## Insights and Recommendations####### Start Here continue reformatting recommendations######
 - Enrollment is currently up 38.8% and Revenue is up 98%
 ![kpis](/images/kpis.png)
-    - The increase in tuition helped boost revenue and did not adversely affect enrollment
+    - Maintain the $225 tution as the increase in tuition helped boost revenue and did not adversely affect enrollment
 - Currently 75% of students have paid
-    - Need to send payment reminder to those that have not paid
+    - Send payment reminder to those that have not paid
 - Of the 38 students from last year who didn't graduate, only 5 have enrolled this year
     - Send promotional email to students who enrolled last year but have not yet this year (listed on page 2 of dashboard)
 - Only 1 middle school soprano player is enrolled, and 1 student enrolled with primary instrument as baritone, which will not be enough.
@@ -53,15 +56,18 @@ Modelled after dashboard created for Austin Saxophon Ensemble to Track enrollmen
 
 ## Data Cleaning and Transformation in Google Sheets
 
-The data for the current year 2023 signups flows into the 2023 Raw tab dynamically from the an online enrollment form. The historical data for 2022 is copied over from a seperate spreadsheet with a different structure to 2023.
+The data for the current year 2023 signups flows into the 2023 Raw tab dynamically from the an online enrollment form. The historical data for 2022 is copied over from a seperate spreadsheet with a different structure to 2023. Payment status and scholarship offers were kept on separate tabs.
+
+I performed multiple steps to clean and transform the raw 2023 enrollment records into a clean 2023 Signups data set, then further combine the 2022 and 2023 data along with the payment and scholarship info into the Total Signups dat set
+
 - Used ArrayFormula() to apply various functions below to entire columns dynamically as more data flowed into the dataset from the website
 - Used combination of Trim(), Upper (), Proper(), Substitute(), and Regexreplace() to 
-    - standardize school names (i.e. RRHS becomes Round Rock HS)
+    - standardize school names (i.e. RRHS becomes Round Rock HS) and correct common spelling errors
 ![schools](/images/school_cleaning_formula.png)
     - extract private teacher last names and correct spelling errors
     - standardize capitalization
 - Used IF(), IFERROR(), and Vlookup() to 
-    - match student enrollment record with either their scholarship amount or a standard $225 tuition
+    - match student enrollment record with either their scholarship amount if applicable or a standard $225 tuition
 ![vlookup](/images/vlookup.png)
 - Used combination of Query() and arrays to 
     - select columns from different spreadsheets and combine them vertically (similar to SQL Union)

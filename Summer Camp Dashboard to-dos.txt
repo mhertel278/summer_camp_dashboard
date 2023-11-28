@@ -51,6 +51,12 @@ Summer Camp Enrollment To Does
 	fix shirt size image
 	flesh out opening paragraph
 	proofread
+11/27/23
+	reformat recommendations
+	continue proofreading
+	organize repo
+	add to Maven
+	
 
 
 	
