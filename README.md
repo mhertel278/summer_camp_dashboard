@@ -75,8 +75,7 @@ To create fake records to fill the 2022 data and 2023 raw data, I used a combina
 - I created several functions that
     - created dictionaries of schools, instruments, or lesson teachers with integers as keys
     - used numpy.randint() to randomly select which key to call thus assigning a dict value for a student
-######START HERE FIX SHIRT FUNCTION IMAGE####
-![shirts](/images/shirt_sizer.png_)
+![shirts](/images/shirt_sizer.png)
 ![instrument function](/images/inst_func.png)
 - I used randint() to determine how many fake records to create
 - Then I used Faker to create fake names and email address for students and parents
