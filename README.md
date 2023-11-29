@@ -38,14 +38,15 @@ For this project I created fake records that followed the same structure and mim
 ![districts](/images/district.png)
 
 ## Dashboard Techniques Used
-- Drop Down Filter and Cross Filters
+- Drop Down Filter and Cross Filters (as seen in the pics above of instrumentation tables)
     - Allow user to filter to Middle Schoolers, High Schoolers, or all
     - Allows determining if all instruments are covered for both school levels
     - Cross filtering identified teachers who sent soprano players
 - Calculated fields
     - Calculate labor costs conditional on enrollment totals, and calculate total profit
-    - Sorting instruments in order Soprano-Alto-Tenor-Baritone rather than alphabetically
+    ![labor](/images/labor_cf.png)
     - Determine which students from last year are eligible to return (have not graduated)
+    ![eligibles](/images/eligibles_cf.png)
 - Blending Data
     - Join School District data set to enrollment data set
     - Self Join to determine which eligible returners have not enrolled
