@@ -3,8 +3,10 @@
 
 [Google Sheets Dataset](https://docs.google.com/spreadsheets/d/1XGGhxuWfjlb2WiGxh-bEyMGVFgQtdlbVafmqPyaPB3o/edit#gid=324466194)
 
+[Portfolio Entry](https://mavenanalytics.io/project/9983)
+
 ## Project Summary
-This dashboard is modelled after a dashboard I created for the Austin Saxophone Ensemble to track enrollment in our summer camp. Student records for the current year 2023 flowed into a Google Sheet automatically as students submitted enrollment forms through our website. I then performed various data cleaning and transormation steps to combine previous years data with the current year. Finally the data was connect to a Looker Studio Dashboard. 
+This dashboard is modelled after a dashboard I created for the Austin Saxophone Ensemble to track enrollment in our summer camp. Student records for the current year 2023 flowed into a Google Sheet automatically as students submitted enrollment forms through our website. I then performed various data cleaning and transformation steps to combine previous years data with the current year. Finally the data was connect to a Looker Studio Dashboard. 
 
 For this project I created fake records that followed the same structure and mimicked the "messy" attributes of the original data set, while removing real names and obscuring the actual enrollment numbers.
 
@@ -22,7 +24,7 @@ For this project I created fake records that followed the same structure and mim
 - A majority of students have come from Leander ISD in the past. Have we been effective in recruiting students from new schools and Districts?
 
 ## Recommendations and Supporting Insights
-- Maintain the $225 tution as the increase in tuition helped boost revenue and did not adversely affect enrollment    
+- Maintain the $225 tuition as the increase in tuition helped boost revenue and did not adversely affect enrollment    
     - Enrollment is currently up 38.8% and Revenue is up 98%
     ![kpis](/images/kpis.png)
 - Send payment reminder to those that have not paid
