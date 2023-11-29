@@ -6,12 +6,12 @@
 ## Project Summary
 This dashboard is modelled after a dashboard I created for the Austin Saxophone Ensemble to track enrollment in our summer camp. Student records for the current year 2023 flowed into a Google Sheet automatically as students submitted enrollment forms through our website. I then performed various data cleaning and transormation steps to combine previous years data with the current year. Finally the data was connect to a Looker Studio Dashboard. 
 
-For this project I created fake records that followed the same structure and mimiced the "messy" attributes of the original data set, while removing real names and obscuring the actual enrollment numbers.
+For this project I created fake records that followed the same structure and mimicked the "messy" attributes of the original data set, while removing real names and obscuring the actual enrollment numbers.
 
 ### Tools Used
 - Google Sheets
 - Google Looker Studio
-- Dummy Data with Python Pandas, Numpy, Faker
+- Python Pandas, Numpy, Faker
 
 ## Problems to Solve
 - How many students are enrolled?
@@ -42,6 +42,7 @@ For this project I created fake records that followed the same structure and mim
     - Allow user to filter to Middle Schoolers, High Schoolers, or all
     - Allows determining if all instruments are covered for both school levels
     - Cross filtering identified teachers who sent soprano players
+    ![cross_filter](/images/instr_cross_filter.png)
 - Calculated fields
     - Calculate labor costs conditional on enrollment totals, and calculate total profit
     ![labor](/images/labor_cf.png)
@@ -78,7 +79,7 @@ To create fake records to fill the 2022 data and 2023 raw data, I used a combina
 
 - I created several functions that
     - created dictionaries of schools, instruments, or lesson teachers with integers as keys
-    - used numpy.randint() to randomly select which key to call thus assigning a dict value for a student
+    - used numpy.randint() to randomly select which key to call thus assigning a dict value for a student, examples here:
 ![shirts](/images/shirt_sizer.png)
 ![instrument function](/images/inst_func.png)
 - I used randint() to determine how many fake records to create
