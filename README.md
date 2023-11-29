@@ -30,8 +30,9 @@ For this project I created fake records that followed the same structure and mim
 - Of the 38 students from last year who didn't graduate, only 5 have enrolled this year
     - Send promotional email to students who enrolled last year but have not yet this year (listed on page 2 of dashboard)
 - Only 1 middle school soprano player is enrolled, and 1 student enrolled with primary instrument as baritone, which will not be enough.
+    ![ms_instruments](/images/mid_instr.png)
     - Reach out to private teachers Gunter, Bull, and McFly who have soprano students attending, and ask for help recruiting more soprano players. Have at least one student who listed baritone as a secondary instrument play baritone
-![ms_instruments](/images/mid_instr.png)    
+    ![cross_filter](/images/instr_cross_filter.png)    
 - Recruiting efforts have added Round Rock ISD as another strong source for students
     - Focus future recruiting efforts now on Austin, Lake Travis, and Pflugerville ISDs
     - Use the list of schools sending students for the first time to send thank you notes to teachers at those schools in order to foster a continued relationship with them
@@ -42,7 +43,7 @@ For this project I created fake records that followed the same structure and mim
     - Allow user to filter to Middle Schoolers, High Schoolers, or all
     - Allows determining if all instruments are covered for both school levels
     - Cross filtering identified teachers who sent soprano players
-    ![cross_filter](/images/instr_cross_filter.png)
+    
 - Calculated fields
     - Calculate labor costs conditional on enrollment totals, and calculate total profit
     ![labor](/images/labor_cf.png)
