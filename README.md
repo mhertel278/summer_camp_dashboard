@@ -23,22 +23,19 @@ For this project I created fake records that followed the same structure and mim
 
 ## Insights and Recommendations####### Start Here continue reformatting recommendations######
 - Enrollment is currently up 38.8% and Revenue is up 98%
-![kpis](/images/kpis.png)
     - Maintain the $225 tution as the increase in tuition helped boost revenue and did not adversely affect enrollment
+![kpis](/images/kpis.png)
 - Currently 75% of students have paid
     - Send payment reminder to those that have not paid
 - Of the 38 students from last year who didn't graduate, only 5 have enrolled this year
     - Send promotional email to students who enrolled last year but have not yet this year (listed on page 2 of dashboard)
 - Only 1 middle school soprano player is enrolled, and 1 student enrolled with primary instrument as baritone, which will not be enough.
-![ms_instruments](/images/mid_instr.png)
-    - Reach to private teachers Gunter, Bull, and McFly who have soprano students attending, and ask for help recruiting more soprano players.
-![sop](/images/instr_cross_filter.png)
-    - Three middle school students have listed baritone as a secondary instrument; have at least 1 
-    play baritone instead of their primary for the camp
+    - Reach out to private teachers Gunter, Bull, and McFly who have soprano students attending, and ask for help recruiting more soprano players. Have at least one student who listed baritone as a secondary instrument play baritone
+![ms_instruments](/images/mid_instr.png)    
 - Recruiting efforts have added Round Rock ISD as another strong source for students
-![districts](/images/district.png)
     - Focus future recruiting efforts now on Austin, Lake Travis, and Pflugerville ISDs
     - Use the list of schools sending students for the first time to send thank you notes to teachers at those schools in order to foster a continued relationship with them
+![districts](/images/district.png)
 
 ## Dashboard Techniques Used
 - Drop Down Filter and Cross Filters
