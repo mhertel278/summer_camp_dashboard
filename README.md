@@ -45,7 +45,7 @@ For this project I created fake records that followed the same structure and mim
 - Calculated fields
     - Calculate labor costs conditional on enrollment totals, and calculate total profit
     ![labor](/images/labor_cf.png)
-    - Determine which students from last year are eligible to return (have not graduated)
+    - Determine how many students from last year are eligible to return (have not graduated)
     ![eligibles](/images/eligibles_cf.png)
 - Blending Data
     - Join School District data set to enrollment data set
